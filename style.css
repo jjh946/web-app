@@ -1,0 +1,310 @@
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+    
+}
+.file-upload {
+    margin: 0 auto;
+    padding: 13% 0;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
+}
+.file-upload-btn {
+    width: 100%;
+    margin: 0;
+    color: #fff;
+    background: #1fb264;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #15824b;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.file-upload-btn:hover {
+    background: #1aa059;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.file-upload-btn:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.file-upload-content {
+    display: none;
+    text-align: center;
+}
+.file-upload-input {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    opacity: 0;
+    cursor: pointer;
+}
+.image-upload-wrap {
+    width: 65%;
+    margin: 0 auto;
+    
+    border: 2px dashed #828282;
+    position: relative;
+    object-fit: contain;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.image-dropping,
+.image-upload-wrap:hover {
+    background-color: #e8f5ff;
+    border: 4px dashed #ffffff;
+}
+.image-title-wrap {
+    padding: 0 15px 15px 15px;
+    color: #222;
+}
+.drag-text {
+    text-align: center;
+}
+.drag-text h3 {
+    width: 50%;
+    font-size: 1.5rem;
+    margin: 0 auto;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #828282;
+}
+.file-upload-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+    padding: 20px;
+}
+.remove-image {
+    width: 200px;
+    margin: 0;
+    color: #fff;
+    background: #cd4535;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    border-bottom: 4px solid #b02818;
+    transition: all 0.2s ease;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.remove-image:hover {
+    background: #c13b2a;
+    color: #ffffff;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.remove-image:active {
+    border: 0;
+    transition: all 0.2s ease;
+}
+.nav-distance {
+    padding: 2.1% 7.7%;
+}
+.navbar-brand {
+    font-family: NanumSquareR;
+    line-height: 1.68;
+    text-align: left;
+    color: #35465d;
+}
+.navbar-light .navbar-toggler {
+    border-color: #ffffff;
+}
+.section {
+    margin-top: 100px;
+}
+.title {
+    font-family: NanumSquareR;
+    font-size: 2rem;
+    line-height: 1.67;
+
+    color: #35465d;
+}
+.subtitle {
+    font-family: NanumSquareR;
+    font-size: 1.5rem;
+    line-height: 1.53;
+
+    color: #35465d;
+}
+
+
+:root {
+    --width1: 10%;
+    --width2: 10%;
+    --width3: 10%;
+}
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 10px;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
+.youtube-link {
+    font-family: NanumSquareR;
+    font-size: 1rem;
+    line-height: 1.71;
+    text-align: center;
+    color: #ff0000;
+}
+
+img.youtube-copy {
+    width: 3rem;
+    height: 2rem;
+    object-fit: contain;
+    box-shadow: 10.1px 16.1px 20px 0 rgba(194, 194, 194, 0.9);
+}
+
+.youtube-icon {
+    width: 8%;
+}
+
+.Rounded-Rectangle-521 {
+    width: 914px;
+    height: 703px;
+    border-radius: 10px;
+    border: solid 1.5px #f6f7fa;
+    background-color: #f6f7fa;
+}
+
+img.upload {
+    width: 20%;
+
+    object-fit: contain;
+}
+.result-message{
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: NanumSquareR;
+}
+
+/* Bar Graph Horizontal */
+.bar-graph .year {
+  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+  -moz-animation: fade-in-text 2.2s 0.1s forwards;
+  animation: fade-in-text 2.2s 0.1s forwards;
+  opacity: 0;
+    animation-delay: 10s;
+}
+
+.bar-graph-horizontal {
+  max-width: 380px;
+}
+
+.bar-graph-horizontal > div {
+  float: left;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.bar-graph-horizontal .year {
+  float: left;
+  margin-top: 18px;
+  width: 50px;
+}
+
+.bar-graph-horizontal .bar {
+  border-radius: 3px;
+  height: 55px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  width: 0;
+}
+
+.bar-graph-one .bar::after {
+  -webkit-animation: fade-in-text 2.2s 0.1s forwards;
+  -moz-animation: fade-in-text 2.2s 0.1s forwards;
+  animation: fade-in-text 2.2s 0.1s forwards;
+  color: #fff;
+  content: attr(data-percentage);
+  font-weight: 700;
+  position: absolute;
+  right: 16px;
+  top: 17px;
+    animation-delay: 10s;
+}
+
+.bar-graph-one .bar-one .bar {
+  background-color: #407286;
+  -webkit-animation: show-bar-one 1.2s 0.3s forwards;
+  -moz-animation: show-bar-one 1.2s 0.3s forwards;
+  animation: show-bar-one 1.2s 0.3s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+    
+}
+
+.bar-graph-one .bar-two .bar {
+  background-color: #5292ac;
+  -webkit-animation: show-bar-two 1.2s 0.2s forwards;
+  -moz-animation: show-bar-two 1.2s 0.2s forwards;
+  animation: show-bar-two 1.2s 0.2s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+}
+
+.bar-graph-one .bar-three .bar {
+  background-color: #64b2d1;
+  -webkit-animation: show-bar-three 1.2s 0.1s forwards;
+  -moz-animation: show-bar-three 1.2s 0.1s forwards;
+  animation: show-bar-three 1.2s 0.1s forwards;
+    animation-iteration-count: 1;
+    animation-delay: 10s;
+}
+
+
+
+/* Bar Graph Horizontal Animations */
+@-webkit-keyframes show-bar-one {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--width1);
+  }
+}
+
+@-webkit-keyframes show-bar-two {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--width2);
+  }
+}
+
+@-webkit-keyframes show-bar-three {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: var(--width3);
+  }
+}
+
+
+
+@-webkit-keyframes fade-in-text {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
